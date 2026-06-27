@@ -10,7 +10,7 @@ pip install mediapipe opencv-python
 
 # 2. Для узнавания
 
-pip install cmake dlib face_recognition
+pip install cmake deepface face_recognition
 
 # 3. Запустить скрипт для распознавания лица (остановить на Escape):
 python 1-face-detect.py
@@ -20,4 +20,11 @@ python 2-face-camera.py
 
 # 5. Запустить скрипт распознавания лиц:
 python 3-face-recognition.py
+```
+
+## Возможные сбои
+
+```bash
+# 1. Может потребоваться Numpy<2:
+python install "numpy<2"
 ```
