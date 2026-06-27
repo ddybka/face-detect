@@ -27,4 +27,9 @@ python 3-face-recognition.py
 ```bash
 # 1. Может потребоваться Numpy<2:
 python install "numpy<2"
+
+# 2. Ошибка новой версии Tensorflow
+pip install "tensorflow==2.15.0"
+
+pip install "numpy<2" "opencv-python==4.10.0.84" "tensorflow==2.15.0" deepface mediapipe
 ```
