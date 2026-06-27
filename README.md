@@ -15,6 +15,9 @@ pip install cmake dlib face_recognition
 # 3. Запустить скрипт для распознавания лица (остановить на Escape):
 python 1-face-detect.py
 
-# 4. Запустить скрипт для узнавания:
-python 2-face-recognition.py
+# 4. Подготовить фотографии человека (пробел - фотография, Escape - выход):
+python 2-face-camera.py
+
+# 5. Запустить скрипт распознавания лиц:
+python 3-face-recognition.py
 ```
