@@ -30,4 +30,6 @@ python 4-face-recognition.py
 ```bash
 # 1. Может потребоваться Numpy<2:
 python install "numpy<2"
+
+python install "protobuf==3.20.3"
 ```
