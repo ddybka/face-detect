@@ -6,7 +6,7 @@
 # Установить Python библиотеки:
 
 # 1. Для распознавания
-pip install mediapipe opencv-python
+pip install mediapipe
 
 # 2. Для узнавания
 
