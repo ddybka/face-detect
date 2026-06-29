@@ -6,11 +6,11 @@
 # Установить Python библиотеки:
 
 # 1. Для распознавания
-pip install mediapipe
+pip install mediapipe opencv-contrib-python "numpy<2"
 
 # 2. Для узнавания
 
-pip install cmake deepface face_recognition opencv-contrib-python
+pip install cmake deepface face_recognition opencv-contrib-python opencv-python
 
 # 3. Запустить скрипт для распознавания лица (остановить на Escape):
 python 1-face-detect.py
@@ -29,7 +29,11 @@ python 4-face-recognition.py
 
 ```bash
 # 1. Может потребоваться Numpy<2:
-python install "numpy<2"
+pip install "numpy<2"
 
-python install "protobuf==3.20.3"
+# 2. Иногда помогает откатить версию protobuf:
+pip install "protobuf==3.20.3"
+
+# 3. В новой версии mediapipe другой API:
+pip install "mediapipe==0.10.8"
 ```
