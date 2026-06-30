@@ -5,7 +5,7 @@
 ```bash
 # Установить Python библиотеки:
 
-# 1. Для распознавания
+# 1. Для **распознавания**
 pip install mediapipe opencv-contrib-python "numpy<2"
 
 # 2. Для узнавания
@@ -55,4 +55,15 @@ pip uninstall mediapipe -y
 pip install mediapipe==0.10.8
 pip uninstall matplotlib -y
 pip install matplotlib==3.7.1
+```
+
+**2 альтернативное решение:**
+
+```bash
+pip uninstall numpy matplotlib mediapipe opencv-python protobuf -y
+pip install numpy==1.24.3
+pip install opencv-python==4.8.1.78
+pip install matplotlib==3.7.1
+pip install protobuf==3.20.3
+pip install mediapipe==0.10.8
 ```
