@@ -1,0 +1,18 @@
+Установка OpenCV с дополнительными модулями (в т.ч. aruco) 
+
+1)Заходим в пуск, в поиске пишем cmd, ПКМ на появившуюся иконку консоли, запускаем от имени администратора
+пишем pip install opencv-contrib-python
+После этого программа aruco.py должна запуститься
+
+2)ЕСЛИ ЧТО-ТО ПОШЛО НЕ ТАК
+То скорее всего у вас отсутствует pip или путь к нему не указан в PATH. Проще всего это пофиксить так:
+Удаляем Python(панель управления->установка и удаление программ), идем на сайт https://www.python.org/downloads/
+скачиваем последнюю версию, ОБЯЗАТЕЛЬНО СТАВИМ ГАЛОЧКУ "Add Python 3.9 to PATH". Переустанавливаем библиотеку:
+pip uninstall opencv-contrib-python
+pip install opencv-contrib-python
+
+3)Если после этого все ещё программа не видит модуль aruco возможно у вас установлен OpenCV без модулей и они конфликтуют.
+Следует попробовать ввести следующие команды
+pip uninstall opencv-contrib-python
+pip uninstall opencv-python
+pip install opencv-contrib-python

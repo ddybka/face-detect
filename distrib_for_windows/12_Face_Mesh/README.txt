@@ -1,0 +1,1 @@
+https://google.github.io/mediapipe/images/mobile/face_mesh_android_gpu.gif по мануалу https://google.github.io/mediapipe/images/mobile/face_mesh_android_gpu.gif , при этом видеопоток берем со встроенной камеры и в консоль выводим списком координаты точек лица.

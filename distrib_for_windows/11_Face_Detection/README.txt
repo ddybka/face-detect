@@ -1,0 +1,1 @@
+https://google.github.io/mediapipe/solutions/face_detection.html под виндой, данные получаем со встроенной в ноутбук камеры.
